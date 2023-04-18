@@ -1,0 +1,105 @@
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+.table-container {
+    position: relative;
+}
+
+.delete-button {
+    position: absolute;
+    bottom: 3.5%;
+    right: 70%;
+    border-radius: 40%;
+    font-size: large;
+    background-color: deepPink;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.container input {
+    width: 65%;
+}
+
+.table {
+    width: 65%;
+    margin: auto;
+}
+
+.table tr {
+    width: 80%;
+    border: 1px solid grey;
+}
+
+.table tr:hover {
+    background-color: lightgray;
+}
+
+.table tr th {
+    width: 28%;
+    border: 1px solid grey;
+}
+
+.pagination {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    gap: 2%;
+    text-decoration: none;
+    list-style: none;
+    margin: auto;
+    cursor: pointer;
+}
+
+.btn {
+    display: flex;
+    gap: 0.3%;
+}
+
+@media only screen and (min-width: 400px) {
+    .container input {
+        width: 65%;
+    }
+
+    .table {
+        width: 65%;
+    }
+
+    .pagination {
+        width: 100%;
+    }
+}
+
+.form label,
+.form input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form input {
+    width: 40vw;
+    margin-left: 20vw;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    .container input {
+        width: 65%;
+    }
+
+    .table {
+        width: 65%;
+    }
+
+    .pagination {
+        width: 100%;
+    }
+}
